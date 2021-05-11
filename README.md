@@ -13,13 +13,13 @@ I'll also help when a database schema changes, and some table column needs to be
 Join the [news channel](https://t.me/KochuUpdates) if you just want to stay in the loop about new features or
 announcements.
 
-Alternatively, [find me on telegram](https://t.me/cybersecurityhackerjinn)! (Keep all support questions in the support chat, where more people can help you.)
+Alternatively, [find me on telegram](https://t.me/DK369DK)! (Keep all support questions in the support chat, where more people can help you.)
 
 To deploy me on heroku, use below button:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DK-Creation-DK/Thankamma_aunty_kochubot)
 
-You can also contact me here [ജിന്ന്](https://t.me/cybersecurityhackerjinn) 
+You can also contact me here [DK](https://t.me/DK369DK) 
 
 ## Starting the bot.
 
@@ -51,7 +51,7 @@ from tg_bot.sample_config import Config
 
 class Development(Config):
     OWNER_ID = 254318997  # my telegram ID
-    OWNER_USERNAME = "SonOfLars"  # my telegram username
+    OWNER_USERNAME = "DK369DK"  # my telegram username
     API_KEY = "your bot api key"  # my api key, as provided by the botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
     MESSAGE_DUMP = '-1234567890' # some group chat that your bot is a member of
