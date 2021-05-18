@@ -1,7 +1,7 @@
 {
-  "name": "Kochubot",
+  "name": "Thankamma_AuntyBot",
   "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
-  "logo": "https://telegra.ph/file/1925c7a2f601539ccde7a.png",
+  "logo": "https://telegra.ph/file/0f5135b02ec7fa0c3d1ee.jpg",
   "keywords": [
     "telegram",
     "best",
@@ -23,11 +23,11 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "20516707"
+      "value": "1442087080"
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": "SonOfLars"
+      "value": "DK369DK"
     },
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
@@ -41,7 +41,7 @@
       "required": false
     },
     "SUDO_USERS": {
-      "description": "A space separated list of user_ids which should be considered sudo users",
+      "de1111scription": "A space separated list of user_ids which should be considered sudo users",
       "value": "254318997 18673980 83489514"
     },
     "SUPPORT_USERS": {
@@ -54,7 +54,7 @@
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
-      "value": "https://www.paypal.me/PaulSonOfLars"
+      "value": "https://www.t.me/DK369DK"
     },
     "PORT": {
       "description": "Port to use for your webhooks",
