@@ -19,7 +19,12 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-ഹായ് {}, എന്റെ പേര് {}! ഞാൻ [ഇദ്ദേഹം](tg://user?id={}) നോക്കി നടത്തുന്ന ഒരു അടിപൊളി അഡ്മിൻ ബോട്ടാണ്.
+Hai {} My name is {}!
+Iam powerful group management bot! 
+
+ Maintained by this [person](tg://user?id={}) 
+ 
+For more commands click /help...
 
 
 
@@ -150,9 +155,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖Admin of Bot", url="https://t.me/DK369DK")],
-                     [InlineKeyboardButton(text="Movie Group", url="https://t.me/movie_zoon"), InlineKeyboardButton(text="Movie Channel", url="https://t.me/movie_zoon12")],
-                     [InlineKeyboardButton(text="Report bugs here", url="https://t.me/cybersecurityhackerjinn"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                     [InlineKeyboardButton(text="🛡Support Group🛡", url="https://t.me/Viruzhex"), InlineKeyboardButton(text="🛡Support Channel🛡", url="https://t.me/movie_zoon12")],
+                     [InlineKeyboardButton(text="🛡Commend🛡", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
