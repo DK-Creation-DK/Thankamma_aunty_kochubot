@@ -156,7 +156,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                      [InlineKeyboardButton(text="🛡Support Group🛡", url="https://t.me/Viruzhex"), InlineKeyboardButton(text="🛡Support Channel🛡", url="https://t.me/movie_zoon12")],
-                     [InlineKeyboardButton(text="SUPPORT CONTACT", url="https://t.me/cybersecurityhackerjinn") ]]))
+                     [InlineKeyboardButton(text="SUPPORT", url="https://t.me/cybersecurityhackerjinn") ]]))
 
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
